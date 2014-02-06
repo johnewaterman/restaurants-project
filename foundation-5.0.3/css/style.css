@@ -128,11 +128,18 @@
   -moz-box-shadow: 1px 0px 2px 4px #D5B048;
   	-webkit-box-shadow: 1px 0px 2px 4px #D5B048;
   	box-shadow: 1px 0px 2px 4px #D5B048;
+
   }
 
 .panel-home p{
 	color: #474749 !important;
 	font-family: Georgia!important;
+	font-size: 18px;
+}
+
+.primary-header {
+	font-size: 34px !important;
+	font-family: georgia;
 }
 
 
@@ -153,14 +160,19 @@
   background: #fff; 
   border-radius: 5px;
   -moz-box-shadow: 1px 0px 2px 4px #D5B048;
-  	-webkit-box-shadow: 1px 0px 2px 4px #D5B048;
-  	box-s
+  -webkit-box-shadow: 1px 0px 2px 4px #D5B048;
+  font-family: georgia;
+}
+
+.panel h4{
+	color:#85231F;
+	font-family: georgia;
 
 }
 ul a{
 	color: red;
-	font-size: 30px;
-}
+	font-size: 30px;}
+
 .right.button-group a{
 	background-color:#D5B048;
 	color: #FFF;
