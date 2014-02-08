@@ -152,7 +152,7 @@
 }
 
 .panel {
-	border-style: solid;
+border-style: solid;
   border-width: 1px;
   border-color: #fff;
   margin-bottom: 1.25rem;
@@ -192,3 +192,27 @@ ul a{
 border-right: 1px solid #85231F;
 }
 
+.container {
+	background-color: #fff;
+	font-family: georgia;
+}
+
+.container h3 {
+	color: #85231F;
+	font-family: georgia;
+}
+
+.about-panel{
+	position:absolute;
+	top: 2em;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fff;
+	margin-bottom: 1.25rem;
+	padding: 1.25rem;
+	background: #fff;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 0px 2px 4px #D5B048;
+	-webkit-box-shadow: 1px 0px 2px 4px #D5B048;
+	font-family: georgia;
+}
