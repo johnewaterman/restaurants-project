@@ -111,9 +111,9 @@
   padding: 1.25rem;
   background: #fff; 
   border-radius: 5px;
-  -moz-box-shadow: 1px 0px 2px 4px #D5B048;
-  	-webkit-box-shadow: 1px 0px 2px 4px #D5B048;
-  	box-shadow: 1px 0px 2px 4px #D5B048;
+  -moz-box-shadow: 0px 0px 0px 2px  #D5B048;
+  	-webkit-box-shadow: 0px 0px 0px 2px  #D5B048;
+  	box-shadow: 0px 0px 0px 2px  #D5B048;
 }
 
 
@@ -125,9 +125,9 @@
   padding: 1.25rem;
   background: #fff; 
   border-radius: 5px;
-  -moz-box-shadow: 1px 0px 2px 4px #D5B048;
-  	-webkit-box-shadow: 1px 0px 2px 4px #D5B048;
-  	box-shadow: 1px 0px 2px 4px #D5B048;
+  -moz-box-shadow: 0px 0px 0px 2px  #D5B048;
+  	-webkit-box-shadow: 0px 0px 0px 2px  #D5B048;
+  	box-shadow: 0px 0px 0px 2px  #D5B048;
 
   }
 
@@ -159,10 +159,47 @@ border-style: solid;
   padding: 1.25rem;
   background: #fff; 
   border-radius: 5px;
-  -moz-box-shadow: 1px 0px 2px 4px #D5B048;
-  -webkit-box-shadow: 1px 0px 2px 4px #D5B048;
+  -moz-box-shadow: 0px 0px 0px 2px  #D5B048;
+  -webkit-box-shadow: 0px 0px 0px 2px  #D5B048;
   font-family: georgia;
 }
+
+/* Secondary Food Images */
+ .panel-images {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #fff; 
+  border-radius: 5px;
+  -moz-box-shadow: 1px 0px 2px 4px #D5B048;
+  	-webkit-box-shadow: 1px 0px 2px 4px #D5B048;
+  	box-shadow: 1px 0px 2px 4px #D5B048;
+  }
+
+  .panel-images img{
+  padding: 1.25rem;
+  background: #fff; 
+  border-radius: 5px;
+  margin-left: 11.5%;
+  margin-right: auto; 
+  }
+
+/* Map */
+.map img {
+	position: absolute;
+	top: 2.75em;
+	left: 18em;
+	z-index: 5;
+	box-shadow: 1px 0px 2px 4px #D5B048;
+}
+
+.map a{
+	background-image: 'img/jamap.png';
+	box-shadow: 1px 0px 2px 4px #D5B048;
+}
+
 
 .panel h4{
 	color:#85231F;
@@ -197,7 +234,16 @@ border-right: 1px solid #85231F;
 	font-family: georgia;
 }
 
+.container img {
+	border-radius: 5px;
+}
+
 .container h3 {
+	color: #85231F;
+	font-family: georgia;
+}
+
+.container h5 {
 	color: #85231F;
 	font-family: georgia;
 }
@@ -212,7 +258,7 @@ border-right: 1px solid #85231F;
 	padding: 1.25rem;
 	background: #fff;
 	border-radius: 5px;
-	-moz-box-shadow: 1px 0px 2px 4px #D5B048;
-	-webkit-box-shadow: 1px 0px 2px 4px #D5B048;
+	-moz-box-shadow: 0px 0px 0px 2px #D5B048;
+	-webkit-box-shadow: 0px 0px 0px 2px #D5B048;
 	font-family: georgia;
 }
