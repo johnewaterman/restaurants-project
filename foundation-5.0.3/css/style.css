@@ -12,6 +12,43 @@
   position: relative;
   cursor: default; }
 
+a {
+	color:#D5B048;
+}
+
+a:hover {
+	color:#85231F;
+}
+
+img {
+	padding-bottom:5px;
+}
+  /* Navigation */
+}
+ul a{
+	color: red;
+	font-size: 30px;}
+
+.right.button-group a{
+	background-color:#D5B048;
+	color: #FFF;
+	font-family: georgia;
+	text-transform: uppercase;
+}
+
+.right.button-group a:hover{
+	background-color: #FFF;
+	color: #85231F;
+	font-family: georgia;
+	text-transform: uppercase;
+}
+
+
+.right.button-group {
+border-right: 1px solid #85231F;
+}
+
+ /* Navigation
 .main-photo {
 	position:relative; 
 	width:100%;
@@ -19,8 +56,23 @@
 	border-radius: 5px;
 	-moz-box-shadow: 2px -1px 5px 5px #85231F;
   	-webkit-box-shadow: 2px -1px 5px 5px #85231F;
-  	box-shadow: 2px -1px 5px 5px #85231F;
+  	box-shadow: 2px -1px 5px 5px #85231F; 
+} */
+
+/* END NAVIGATION*/
+
+
+/* Header on Menu Page and Elsewhere*/
+h4{
+	color:#85231F;
+	font-family: georgia;
+	font-size: 22px;
+	text-transform: uppercase;
 }
+/* END H4 STYLE*/
+
+
+/* Slide Show Image and Layout Styles */
 
 .slideshow img {
 	position:relative !important; 
@@ -63,14 +115,7 @@
     [data-magellan-expedition] .sub-nav .active {
       line-height: 1.8em; }
 
-.primary-header {
-	color: #85231F  !important; 
-	font-family: Georgia!important; 
-	font-size: 24px !important;
-	margin-top: -5px !important;  
-	position: relative;
-	text-transform: uppercase;
-}
+/* Jack ALlen's Kitchen Overlay on Slideshow */
 
 .ja-header{
 	color: #C5CFC6  !important; 
@@ -103,20 +148,19 @@
 	} 
 }
 
-.panel-header {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #fff;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem;
-  background: #fff; 
-  border-radius: 5px;
-  -moz-box-shadow: 0px 0px 0px 2px  #D5B048;
-  	-webkit-box-shadow: 0px 0px 0px 2px  #D5B048;
-  	box-shadow: 0px 0px 0px 2px  #D5B048;
+  /* Red H3 Header in Body */
+.primary-header {
+	color: #85231F  !important; 
+	font-family: Georgia!important; 
+	font-size: 24px !important;
+	margin-top: -5px !important;  
+	position: relative;
+	text-transform: uppercase;
 }
 
 
+
+  /* Yellow Body Wrapper/Border & Boxex */
   .panel-home {
   border-style: solid;
   border-width: 1px;
@@ -164,6 +208,8 @@ border-style: solid;
   font-family: georgia;
 }
 
+/* End of Yellow Body Wrapper/Border & Boxex */
+
 /* Secondary Food Images */
  .panel-images {
   border-style: solid;
@@ -186,6 +232,10 @@ border-style: solid;
   margin-right: auto; 
   }
 
+  .panel h4{
+	color:#85231F;
+	font-family: georgia;}
+
 /* Map */
 .map img {
 	position: absolute;
@@ -200,10 +250,7 @@ border-style: solid;
 	box-shadow: 1px 0px 2px 4px #D5B048;
 }
 
-
-.panel h4{
-	color:#85231F;
-	font-family: georgia;}
+/* END MAP */
 
 /* Catering Header */
 .catering-header {
@@ -215,30 +262,8 @@ border-style: solid;
 	color:#85231F;
 }
 
-
-/* Navigation */
-}
-ul a{
-	color: red;
-	font-size: 30px;}
-
-.right.button-group a{
-	background-color:#D5B048;
-	color: #FFF;
-	font-family: georgia;
-	text-transform: uppercase;
-}
-
-.right.button-group a:hover{
-	background-color: #FFF;
-	color: #85231F;
-	font-family: georgia;
-	text-transform: uppercase;
-}
-
-
-.right.button-group {
-border-right: 1px solid #85231F;
+.catering-header a:hover{
+	color:#D5B048;
 }
 
 /* About and Top Catering Page Container */
@@ -330,6 +355,8 @@ color: #85231F;
 	background-color: #fff;
 }*/
 
+/* Side Bar on About Page */
+
 .about-panel{
 	position:absolute;
 	top: 2em;
@@ -353,6 +380,8 @@ color: #85231F;
 .about-panel a:hover {
 	color: #D5B048;
 }
+
+/* END SIDE BAR ON ABOUT PAGE*/
 
 /* Footer */
 .jafooter {
@@ -400,4 +429,5 @@ margin-bottom: 0;
 max-width: 62.5rem;
 }
 
+/* END FOOTER */
 
