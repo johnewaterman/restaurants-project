@@ -225,12 +225,18 @@ border-style: solid;
   }
 
   .panel-images img{
-  padding: 1.25rem;
+  padding: .25rem;
   background: #fff; 
   border-radius: 5px;
-  margin-left: 11.5%;
+  margin-left: 12.5%;
   margin-right: auto; 
   }
+
+  .panel-images li{
+  	float: left;
+	margin-right: 23px;
+	margin-left: 6px;
+}
 
   .panel h4{
 	color:#85231F;
