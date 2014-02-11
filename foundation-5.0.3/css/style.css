@@ -12,6 +12,10 @@
   position: relative;
   cursor: default; }
 
+hr {
+	color:#85231F !important;
+}
+
 a {
 	color:#D5B048;
 }
@@ -28,6 +32,11 @@ img {
 ul a{
 	color: red;
 	font-size: 30px;}
+
+.row p{
+	font-family: georgia;
+	font-size: 14px;
+	}
 
 .right.button-group a{
 	background-color:#D5B048;
@@ -178,11 +187,11 @@ h4{
 .panel-home p{
 	color: #474749 !important;
 	font-family: Georgia!important;
-	font-size: 18px;
+	font-size: 15.5px;
 }
 
 .primary-header {
-	font-size: 34px !important;
+	font-size: 28px !important;
 	font-family: georgia;
 }
 
@@ -245,7 +254,7 @@ border-style: solid;
 /* Map */
 .map img {
 	position: absolute;
-	top: 2.75em;
+	top: 1.75em;
 	left: 18em;
 	z-index: 5;
 	box-shadow: 1px 0px 2px 4px #D5B048;
@@ -283,7 +292,7 @@ border-style: solid;
 }
 
 .container h3 {
-	color: #D5B048;
+	color: #85231F;
 	font-family: georgia;
 }
 
@@ -359,10 +368,15 @@ color: #85231F;
 
 .div.large-9.columns {
 	background-color: #fff;
-}*/
+}
 
-/* Side Bar on About Page */
 
+.div.large-9.columns {
+	background-color: #fff;
+}
+
+
+Side Bar on About Page */
 .about-panel{
 	position:absolute;
 	top: 2em;
@@ -389,7 +403,49 @@ color: #85231F;
 
 /* END SIDE BAR ON ABOUT PAGE*/
 
+
+/* Padding above navigation*/
+
+@media only screen and (min-width: 64.063em) {
+	.large-9 {
+		padding-top: 10px;
+}
+
+
+
 /* Footer */
+.jafooter-about {
+background: #FFF;
+padding: -18px -9px 1px;
+margin-top: 4px;
+width: 1402px;
+position: absolute;
+right: 0%;
+height: 230px;
+}
+
+.jafooter-about li {
+display: inline-block;
+width: 8%;
+text-align: center;
+}
+
+.jafooter-about a{
+	font-size: 12px;
+	font-family: georgia;
+	color: black
+}
+
+.jafooter-about a:hover{
+	color:#D5B048;
+}
+
+.jafooter-about p{
+padding-left: 6%;
+font-size:10px;
+font-family: georgia;
+}
+
 .jafooter {
 background: #FFF;
 padding: -18px -9px 1px;
@@ -434,6 +490,13 @@ margin-top: 0;
 margin-bottom: 0;
 max-width: 62.5rem;
 }
+
+/* Footer 
+
+@media only screen and (min-width: 64.063em) {
+	.jafooter{
+		display:none;
+	}*/
 
 /* END FOOTER */
 
